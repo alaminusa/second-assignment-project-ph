@@ -102,11 +102,11 @@ nav{
     font-size: 64px;
     font-weight: 800;
     margin-top: 0px;
-    color: #fff;
+    color: #FFFFFF;
 }
 .banner-txt p{
     font-weight:400 ;
-    color: #fff;
+    color: #FFFFFF;
 } 
 .banner-btn{
     padding-top:24px;
@@ -193,7 +193,6 @@ nav{
     align-items: center;
 }
 /* about css */
-
 #choose-section{
     background-color:#230E3D; 
     padding-bottom: 100px;
@@ -211,7 +210,7 @@ nav{
     gap: 30px;
 }
 .box-container h3{
-    color: #fff;
+    color: #FFFFFF;
     font-size: 1.5rem;
     padding-bottom: 10px;   
 }
@@ -247,3 +246,151 @@ nav{
     border-radius: 40px;
 }
 /* about css */
+
+/* Featured Episodes Section */
+.feature-section{
+    background-color:#1A0B2E ;
+    padding: 80px 0;
+}
+.feature-section h2{
+    font-size: 3rem;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 25px;
+}
+iframe{
+    max-width: 379px;
+    height: 215px;
+    border-radius: 20px 20px 0 0;
+}
+.feature-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.video{
+    text-align: center;
+}
+.card1,
+.card2,
+.card3{
+    background-color: #250D44;
+    border-radius: 20px;
+}
+.feature-cards{
+    padding-bottom: 80px;
+}
+.feature-cards h3{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    padding-bottom: 8px;
+}
+.feature-cards p{
+    font-size: 1rem;
+    color: #fae9e9;
+    line-height: 28px;
+}
+.feature-text{
+    padding: 20px;
+}
+.time{
+    display: flex; 
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px;
+}
+.time img{
+  width: 20px; 
+  height: 20px;
+}
+.host{
+    display: flex;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 20px;
+    align-items: center;
+    padding: 40px;
+    gap:20px;
+}
+.host h3{
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.host p{
+    font-size: 1rem;
+    color: #fae9e9;
+   line-height: 28px;
+}
+.host .social-icon{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+.social-icon i{
+    margin-right: 8px;
+    width:40px;
+    height:40px;
+    background: linear-gradient(to top, #F7E93F, #FB09B4, #9100F8);
+    background-clip: text;             
+    -webkit-background-clip: text;     
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #ccc6c6;
+    cursor: pointer;
+}
+.social-icon i:hover {
+    transition: all 0.3s ease;
+    border-color: #FB09B4;
+}
+/* Featured Episodes Section */
+/* Footer Section */
+.footer-container{
+    background: url(./assets/footer-bg.png);
+    width: 100%;
+    height:375px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.footer-container h1{
+    font-size: 5rem;
+    color: #FFFFFF;
+}
+.footer-container h1 span{
+    background: linear-gradient(to top, #F7E93F, #FB09B4, #9100F8);
+    background-clip: text;             
+    -webkit-background-clip: text;     
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+.footer-icon{
+    display: flex;
+    gap: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.footer-icon i{
+  margin-right: 4px;
+  font-size: 1rem;
+}
+.footer-icon i:hover{
+   color: #ead3d3;
+}
+.cpy-right{
+    color: #b1aaaa;
+    font-size: 1rem;
+}
+/* Footer Section */
