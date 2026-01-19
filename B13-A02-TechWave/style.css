@@ -12,7 +12,7 @@
 /* header css */
 header{
     width: 100%;
-    background-color: #412567;
+    background-color: #1A0B2E;
     height: 92px;
 }
 nav{
@@ -52,3 +52,91 @@ nav{
     border: 1px solid #00FF88;   
 }
 /* header css */
+
+/* banner css */
+.banner {
+    width: 100%;
+    height: 87.5vh;
+    background: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.hero-area{
+    position: relative;
+    /* margin-top: -100px; */
+} 
+.circle-img{
+    width:325px;
+    display: block;
+}
+.microphone-img{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 116px;
+}
+.badge{
+    position: absolute;
+    top:10px;
+    right:25px;
+    background-color: #00FF88;
+    color: #1A0B2E;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 1000px;
+    box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
+}
+.banner-txt h2 {
+    font-size: 64px;
+    font-weight: 800;
+    margin-top: 0px;
+    color: #fff;
+}
+.banner-txt p{
+    font-size: 1rem;
+    font-weight:400 ;
+    color: #fff;
+} 
+.banner-btn{
+    padding-top:24px;
+}
+.banner-btn i{
+    margin-right: 10px;
+}
+ .spotify-btn{
+    background: linear-gradient(90deg,rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%);
+    padding: 12px 16px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    border: none;
+    font-weight: 600;
+    cursor: pointer; 
+}
+.spotify-btn:hover{
+    background: transparent;
+    color: #00FF88;
+    border: 1px solid #00FF88;
+}
+.subscribe-btn{
+    background: linear-gradient(90deg,rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%);
+    padding: 12px 16px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    border: none;
+    font-weight: 600;
+    cursor: pointer; 
+}
+.subscribe-btn:hover{
+    background: transparent;
+    color: #00FF88;
+    border: 1px solid #00FF88;
+}
