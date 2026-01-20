@@ -223,27 +223,23 @@ nav{
     padding-bottom: 10px;
     max-width: 60px;
 }
-.box-container .box-1{
+.box-container .box-one{
    grid-row: span 2;
    align-content: center;
 }
-.box-container .box-2{
+.box-container .box-two{
   grid-column: span 2;
 }
-.box-container .box-3{
+.box-container .box-three{
   grid-column: span 2;
 }
-.box-container .box-4{
+.box-container .box-four{
   grid-column: span 2;
 }
-.box-1,
-.box-2,
-.box-3,
-.box-4,
-.box-5{
-    background: #290556e2;
+.box-one,.box-two,.box-three,.box-four,.box-five{
     padding: 40px;
-    border-radius: 40px;
+    background: #290556e2;
+    border-radius: 38px;
 }
 /* about css */
 
@@ -271,9 +267,7 @@ iframe{
 .video{
     text-align: center;
 }
-.card1,
-.card2,
-.card3{
+.card-one,.card-two,.card-three{
     background-color: #250D44;
     border-radius: 20px;
 }
@@ -384,13 +378,22 @@ iframe{
 }
 .footer-icon i{
   margin-right: 4px;
-  font-size: 1rem;
+  font-size: 16px;
 }
 .footer-icon i:hover{
    color: #ead3d3;
 }
 .cpy-right{
     color: #b1aaaa;
-    font-size: 1rem;
+    font-size: 16px;
 }
 /* Footer Section */
+
+/* responsive design code */
+
+@media screen and (max-width: 576px) {
+  .navbar .nav-link,
+  .nav-btn {
+    display: none;
+  }
+}
