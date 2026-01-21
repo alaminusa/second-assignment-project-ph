@@ -24,7 +24,7 @@ nav{
 }
 menu  ul{
     display: flex;
-    gap: 32px;
+    gap: 33px;
 }
 menu  ul li{
     list-style: none;
