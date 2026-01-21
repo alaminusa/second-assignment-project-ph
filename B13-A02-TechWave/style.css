@@ -49,11 +49,15 @@ nav{
     color: #FFFFFF;
     border: none;
     font-weight: 600;
+    font-size: 18px;
 }
 .btn button:hover{
     background: transparent;
     color: #00FF88;
     border: 1px solid #00FF88;   
+}
+.fa-solid{
+    font-size: 22px !important;
 }
 /* header css */
 
@@ -392,8 +396,67 @@ iframe{
 /* responsive design code */
 
 @media screen and (max-width: 576px) {
-  .navbar .nav-link,
-  .nav-btn {
-    display: none;
+  nav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
+  .btn button {
+    background: linear-gradient(90deg, rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%);
+    border-radius: 20px;
+    color: #FFFFFF;
+    border: none;
+    font-size: 1rem;
+}
+.fa-solid{
+    font-size: 22px;
+}
+header {
+    width: 100%;
+    
+    background-color: #1A0B2E;
+    height: 170px;
+}
+.about-text p, .last-para {
+    padding: 10px 20px 0 20px;
+    line-height: 20px;
+}
+.about-text .last-para {
+    padding: 20px;
+}
+.about-counter {
+    padding-top: 20px;
+}
+.about-counter .number {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10%;
+}
+.number {
+    padding: 0;
+    text-align: center;
+}
+.box-container {
+    display: flex;
+    flex-direction: column;
+}
+.feature-cards, .host  {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.host .social-icon {
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+}
+.footer-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 29%;
+    text-align: center;
+}
 }
